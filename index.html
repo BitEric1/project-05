@@ -94,7 +94,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
             rel="stylesheet"
         />
         <!-- Css -->
@@ -153,34 +153,507 @@
         </header>
         <!-- Main -->
         <main class="main">
-            <div class="container">
-                <section class="hero">
-                    <div class="hero__left">
-                        <p class="section-sub-title">Digital Smart Wallet</p>
-                        <h1 class="hero__heading">
-                            Digital <span>Payment</span> For Everyone.
-                        </h1>
-                        <p class="desc">
-                            We bring together eveything that’s required to build
-                            websites and apps that accept payments and send
-                            payouts globally. We are the best platform.
-                        </p>
-                        <form action="" class="form-info">
-                            <input
-                                type="email"
-                                name="email"
-                                id="email"
-                                placeholder="Your email address"
-                            />
-                            <a href="#!" class="btn">Get Started</a>
-                        </form>
-                        <p class="hero__desc">
-                            *We’ll respect the inbox and never share your email.
-                        </p>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__left">
+                            <p class="section-sub-title">
+                                Digital Smart Wallet
+                            </p>
+                            <h1 class="heading">
+                                Digital <span>Payment</span> For Everyone.
+                            </h1>
+                            <p class="desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <form action="" class="form-info">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Your email address"
+                                />
+                                <a href="#!" class="btn hero__btn"
+                                    >Get Started</a
+                                >
+                            </form>
+                            <p class="hero__desc">
+                                *We’ll respect the inbox and never share your
+                                email.
+                            </p>
+                        </div>
+                        <div class="hero__right">
+                            <div class="hero__mobile">
+                                <div class="mobile-top"></div>
+                                <div class="mobile__card">
+                                    <div class="mobile__card-top">
+                                        <p class="mobile__card-title">
+                                            Main Balance
+                                        </p>
+                                        <img
+                                            src="./assets/icons/decor-mobile.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <p class="mobile__card-price">$78,355.17</p>
+                                    <div class="mobile__card-body">
+                                        <p class="mobile__card-info-item">
+                                            VALID THUR
+                                        </p>
+                                        <p class="mobile__card-info-item">
+                                            CARD HOLDER
+                                        </p>
+                                        <p
+                                            class="mobile__card-info-item mobile__card-info-item--bold"
+                                        >
+                                            08/22
+                                        </p>
+                                        <p
+                                            class="mobile__card-info-item mobile__card-info-item--bold"
+                                        >
+                                            Md Moshqur Alam
+                                        </p>
+                                    </div>
+                                    <img
+                                        src="./assets/icons/decor-mobile-3.svg"
+                                        alt=""
+                                        class="hero__mobile-decor"
+                                    />
+                                    <img
+                                        src="./assets/icons/decor-mobile-2.svg"
+                                        alt=""
+                                        class="hero__mobile-decor-2"
+                                    />
+                                </div>
+                                <div class="transection">
+                                    <p class="transection-title">
+                                        Transections
+                                    </p>
+                                    <img
+                                        src="./assets/icons/decor-mobile-4.svg"
+                                        alt=""
+                                        class="transection-icon"
+                                    />
+                                </div>
+                                <div class="transfer-list">
+                                    <!-- Item 1 -->
+                                    <div class="transfer-item">
+                                        <div class="transfer-item__top">
+                                            <img
+                                                src="./assets/img/money.png"
+                                                alt=""
+                                                class="transfer-item__icon"
+                                            />
+                                            <div class="transfer-item__info">
+                                                <p class="transfer-item__title">
+                                                    Received Money
+                                                </p>
+                                                <p
+                                                    class="transfer-item__content"
+                                                >
+                                                    email@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="transfer-item__bottom">
+                                            <p class="transfer-item__price">
+                                                +$1,600
+                                            </p>
+                                            <span class="tranfer-item__date"
+                                                >Sep 23</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="transfer-item">
+                                        <div class="transfer-item__top">
+                                            <img
+                                                src="./assets/img/plane.png"
+                                                alt=""
+                                                class="transfer-item__icon"
+                                            />
+                                            <div class="transfer-item__info">
+                                                <p class="transfer-item__title">
+                                                    Send Money
+                                                </p>
+                                                <p
+                                                    class="transfer-item__content"
+                                                >
+                                                    Airbnb Payment
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="transfer-item__bottom">
+                                            <p class="transfer-item__price">
+                                                - $600
+                                            </p>
+                                            <span class="tranfer-item__date"
+                                                >Sep 23</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="transfer-item">
+                                        <div class="transfer-item__top">
+                                            <img
+                                                src="./assets/img/money.png"
+                                                alt=""
+                                                class="transfer-item__icon"
+                                            />
+                                            <div class="transfer-item__info">
+                                                <p class="transfer-item__title">
+                                                    Received Money
+                                                </p>
+                                                <p
+                                                    class="transfer-item__content"
+                                                >
+                                                    Upwork Earning
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="transfer-item__bottom">
+                                            <p class="transfer-item__price">
+                                                +$1,600
+                                            </p>
+                                            <span class="tranfer-item__date"
+                                                >Sep 23</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <!-- Item 4 -->
+                                    <div class="transfer-item">
+                                        <div class="transfer-item__top">
+                                            <img
+                                                src="./assets/img/bill.png"
+                                                alt=""
+                                                class="transfer-item__icon"
+                                            />
+                                            <div class="transfer-item__info">
+                                                <p class="transfer-item__title">
+                                                    Pay Bill
+                                                </p>
+                                                <p
+                                                    class="transfer-item__content"
+                                                >
+                                                    Electricity Bill
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="transfer-item__bottom">
+                                            <p class="transfer-item__price">
+                                                - $600
+                                            </p>
+                                            <span class="tranfer-item__date"
+                                                >Sep 23</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero__down">
+                                    <img
+                                        src="./assets/icons/down.svg"
+                                        alt=""
+                                        class="hero__down-icon"
+                                    />
+                                    <p class="hero__down-title">Deposite</p>
+                                    <p class="hero__down-price">$32000</p>
+                                </div>
+                                <div class="hero-shield">
+                                    <img
+                                        src="./assets/icons/khien.svg"
+                                        alt=""
+                                        class="hero-shield__icon"
+                                    />
+                                    <div class="hero-shield__info">
+                                        <p class="hero-shield__price">$1.310</p>
+                                        <p class="hero-shield__title">
+                                            SECURED FUNDS
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__right-circle">
+                                <span class="circle-percen">0%</span>
+                                <p class="circle-title">Interest</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="hero__right"></div>
-                </section>
-            </div>
+                </div>
+            </section>
+            <!-- Work -->
+            <section class="work">
+                <div class="container">
+                    <div class="work__inner">
+                        <div class="work__left">
+                            <div class="work__left-img-wrap">
+                                <img
+                                    src="./assets/img/work-man.png"
+                                    alt=""
+                                    class="work__img"
+                                />
+                                <img
+                                    src="./assets/icons/work-card.svg"
+                                    alt=""
+                                    class="work__left-card"
+                                />
+                                <div class="work-box">
+                                    <img
+                                        src="./assets/img/work-check.png"
+                                        alt=""
+                                        class="work-box__check"
+                                    />
+                                    <div class="work-box__content">
+                                        <h2 class="work-box__title">
+                                            Congratulations
+                                        </h2>
+                                        <p class="work-box-desc">
+                                            Your account activated
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="work__right">
+                            <p class="section-sub-title">
+                                Digital Smart Wallet
+                            </p>
+                            <h1 class="section-heading work__heading">
+                                How It Works
+                            </h1>
+                            <div class="work-list">
+                                <!-- Item 1 -->
+                                <div class="work-item">
+                                    <h2 class="work-item__heading">
+                                        1. Open a High Interest Checking account
+                                    </h2>
+                                    <p class="work-item__desc">
+                                        Fund your bank account with a minimum
+                                        balance of $100. Enroll in 3 minutes or
+                                        less!
+                                    </p>
+                                </div>
+                                <!-- Item 2 -->
+                                <div class="work-item">
+                                    <h2 class="work-item__heading">
+                                        2. 10 point-of-sale transactions each
+                                        Month that are at least $10 each.
+                                    </h2>
+                                    <p class="work-item__desc">
+                                        Be sure to use your rewards checking
+                                        account as often as possible in order to
+                                        accue APYI
+                                    </p>
+                                </div>
+                                <!-- Item 3 -->
+                                <div class="work-item">
+                                    <h2 class="work-item__heading">
+                                        3. Receive up to 5.50% APY
+                                    </h2>
+                                    <p class="work-item__desc">
+                                        The APY you earn will be based on your
+                                        account balance and satisfying the
+                                        transaction requirement.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <!-- Feature -->
+            <section class="feature">
+                <div class="container">
+                    <div class="feature__inner">
+                        <div class="feature__left">
+                            <p class="section-sub-title">
+                                Digital Smart Wallet
+                            </p>
+                            <h1 class="section-heading">
+                                One Card For All Your Payments
+                            </h1>
+                            <p class="desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <div class="feature-list">
+                                <p class="feature-item">Global Payments</p>
+                                <p class="feature-item">One-Click Purchase</p>
+                                <p class="feature-item">Friendly Price</p>
+                            </div>
+                            <a href="#!" class="btn feature-btn">Get Started</a>
+                        </div>
+                        <div class="feature__right">
+                            <div class="feature__card">
+                                <div class="feature__card-top">
+                                    <p class="feature__card-title">
+                                        Main Balance
+                                    </p>
+                                    <img
+                                        src="./assets/icons/feature-card.svg"
+                                        alt=""
+                                        class="feature__card-icon"
+                                    />
+                                </div>
+                                <p class="feature__card-price">$78,355.17</p>
+                                <div class="feature__card-content">
+                                    <div class="feature__card-item">
+                                        <p class="feature__card-desc">
+                                            VALID THUR
+                                        </p>
+                                        <p
+                                            class="feature__card-desc feature__card--bold"
+                                        >
+                                            08/22
+                                        </p>
+                                    </div>
+                                    <div class="feature__card-item">
+                                        <p
+                                            class="feature__card-desc feature__card--bold"
+                                        >
+                                            Md Moshqur Alam
+                                        </p>
+                                        <p class="feature__card-desc">
+                                            CARD HOLDER
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="feature__box">
+                                    <img
+                                        src="./assets/img/feature-card.png"
+                                        alt=""
+                                        class="feature__box-icon"
+                                    />
+                                    <p class="feature__box-desc">Income</p>
+                                    <span class="feature__box-price">
+                                        $1250
+                                    </span>
+                                </div>
+                                <div class="feature__transfer">
+                                    <div class="feature__transfer-top">
+                                        <img
+                                            src="./assets/img/plane.png"
+                                            alt=""
+                                            class="feature__transfer-icon"
+                                        />
+                                        <div class="feature__transfer-content">
+                                            <h2 class="feature__transfer-title">
+                                                Send Money
+                                            </h2>
+                                            <p class="feature__transfer-desc">
+                                                Airbnb Payment
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="feature__transfer-bottom">
+                                        <p class="feature__transfer-price">
+                                            - $600
+                                        </p>
+                                        <span class="feature__transfer-date"
+                                            >Sep 23</span
+                                        >
+                                    </div>
+                                </div>
+                                <img
+                                    src="./assets/icons/feature-card-decor.svg"
+                                    alt=""
+                                    class="feature__card-decor-1"
+                                />
+                                <img
+                                    src="./assets/icons/feature-card-decor-2.svg"
+                                    alt=""
+                                    class="feature__card-decor-2"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Feature 2 -->
+            <section class="feature-2">
+                <div class="container">
+                    <div class="feature-2__inner">
+                        <div class="feature-2__left">
+                            <div class="feature-2__img-wrap">
+                                <img
+                                    src="./assets/img/feature-3-img.png"
+                                    alt=""
+                                    class="feature-2__img"
+                                />
+                            </div>
+                            <div class="feature-2__card">
+                                <p class="feature-2__card-title">
+                                    Choose payment method:
+                                </p>
+                                `
+                                <div class="feature-2__card-list">
+                                    <div class="feature-2__card-row">
+                                        <img
+                                            src="./assets/img/feature__card-1.png"
+                                            alt=""
+                                            class="feature-2__card-item"
+                                        />
+                                        <img
+                                            src="./assets/img/feature__card-2.png"
+                                            alt=""
+                                            class="feature-2__card-item"
+                                        />
+                                        <img
+                                            src="./assets/img/feature__card-3.png"
+                                            alt=""
+                                            class="feature-2__card-item"
+                                        />
+                                    </div>
+                                    <div class="feature-2__card-row">
+                                        <img
+                                            src="./assets/img/feature__card-4.png"
+                                            alt=""
+                                            class="feature-2__card-item"
+                                        />
+                                        <img
+                                            src="./assets/img/feature__card-5.png"
+                                            alt=""
+                                            class="feature-2__card-item"
+                                        />
+                                        <img
+                                            src="./assets/img/feature__card-6.png"
+                                            alt=""
+                                            class="feature-2__card-item"
+                                        />
+                                    </div>
+                                </div>
+                                <img
+                                    src="./assets/icons/feature-2-money-decor.svg"
+                                    alt=""
+                                    class="feature-2__dercor"
+                                />
+                            </div>
+                        </div>
+                        <div class="feature-2__right">
+                            <p class="section-sub-title">
+                                Digital Smart Wallet
+                            </p>
+                            <h1 class="section-heading">
+                                Transfer and Deposite Your Money Anytime
+                            </h1>
+                            <p class="desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <div class="feature-list">
+                                <p class="feature-item">Powerfull App</p>
+                                <p class="feature-item">Transparency And Speed</p>
+                                <p class="feature-item">Multiple Use Capabilities</p>
+                            </div>
+                            <a href="#!" class="btn feature-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>
